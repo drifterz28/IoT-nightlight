@@ -1,0 +1,100 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url(./bg-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background: rgba(255,255,255,.4);
+  border-radius: 4px;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.slide {
+  float: left;
+  margin: 5px;
+  position: relative;
+  width: calc(100% - 10px);
+}
+
+.slider {
+  left: 12%;
+  position: absolute;
+  width: 86%;
+}
+
+.color {
+  align-items: center;
+  border-radius: 4px;
+  display: flex;
+  float: left;
+  font: 2em/1 bold;
+  height: 70px;
+  justify-content: center;
+  margin: 10px 5px;
+  transition: all .4s ease;
+  width: calc(100% - 10px);
+}
+
+button {
+  background-image: none;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.42857143;
+  margin-bottom: 0;
+  padding: 6px 12px;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.off-btn {
+	background-color: #fff;
+	background: linear-gradient(to bottom, #fff 5%, #f6f6f6 100%);
+	border: 1px solid #dcdcdc;
+	box-shadow: inset 0 1px 0 0 #fff;
+	color: #666;
+  display: inline-block;
+  margin: 0 5px;
+  outline: none;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #fff;
+  width: calc(100% - 10px);
+}
+.off-btn:hover {
+	background: linear-gradient(to bottom, #f6f6f6 5%, #fff 100%);
+	background-color: #f6f6f6;
+}
+
+h1 {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.setColors {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.setColors button {
+  color: #fff;
+  flex-grow: 1;
+  margin: 4px;
+  min-width: 20%;
+}
