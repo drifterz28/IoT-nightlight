@@ -3,7 +3,10 @@ Nightlight based on the ESP8266
 
 I had a strip of RGB LED's from amazon and wanted to do "stuff" with them so I created a dome and base to create a nice websocket RGB LED nightlight.
 
-![light](/assets/IMG_20161001_112014.jpg)
+![light](/assets/nightlight-dome.jpg)
+![light](/assets/nightlight-on.jpg)
+![light](/assets/nightlight-open.jpg)
+![light](/assets/nightlight-controll.jpg)
 
 ## Parts list
 
