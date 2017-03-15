@@ -62,6 +62,7 @@ const offState = {
 }
 
 const setColors = {
+  Sliver: '#969696',
   Fuchsia: '#FF00FF',
   DeepPink: '#FF1493',
   DarkViolet: '#9400D3',
