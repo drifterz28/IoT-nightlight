@@ -76,7 +76,7 @@ void setup() {
   WiFi.hostname("ESP_Light_1");
   WiFiMulti.addAP(ssid, pass);
   // softAP used to not boradcast SSID form esp
-  WiFi.softAP("esp8266", "nothingyoucanfindout", 1, 1);
+  WiFi.softAP("esp8266", "nothingyoucanfindout");
   while (WiFiMulti.run() != WL_CONNECTED) {
     delay(100);
   }
